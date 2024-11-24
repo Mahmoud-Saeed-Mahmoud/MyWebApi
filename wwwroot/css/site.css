@@ -1,0 +1,28 @@
+.weather-card {
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.weather-card:hover {
+    transform: translateY(-5px);
+}
+
+.temperature {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.weather-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-weight: 500;
+    color: #666;
+}
+
+.summary {
+    color: #444;
+    font-weight: 500;
+}
